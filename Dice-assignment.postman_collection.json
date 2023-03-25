@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "ed1d6082-f4ce-4d9d-8918-b6db7feb978a",
+		"name": "Dice-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dice-Assignement-forest",
+			"request": {
+				"auth": {
+					"type": "basic"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "RAPIDhost",
+						"value": "m0n9b8v7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/RapidAPI/Forest/India",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RapidAPI",
+						"Forest",
+						"India"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dice-Assignment-summary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/RapidAPI/summary/India",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RapidAPI",
+						"summary",
+						"India"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
